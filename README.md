@@ -4,7 +4,7 @@ I used a dataset from a US-based organization called Yelp, which provides a plat
 
 A series of questions were answered regarding the data to help me profile and better understand the data. I came up with my own question for analysis and prepare a dataset for the analysis.
 
-The questions requires to write a variety of SQL statements.
+The questions require to write a variety of SQL statements.
 
 ## The following entity relationship (ER) diagram is referred for this project:
 
