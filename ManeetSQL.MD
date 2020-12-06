@@ -64,7 +64,7 @@ Note: Primary Keys are denoted in the ER-Diagram with a yellow key icon.
 	
 	SQL code used to arrive at answer:
 
-```sqlite3	
+```sql	
 	SELECT * FROM user
 	WHERE id IS NULL
 	OR name IS NULL
