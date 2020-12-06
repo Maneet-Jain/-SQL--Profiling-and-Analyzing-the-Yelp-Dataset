@@ -12,17 +12,17 @@ SELECT count(*) FROM _____
 
 ```
 	
-i. Attribute table = 10000
-ii. Business table = 10000
-iii. Category table = 10000
-iv. Checkin table = 10000
-v. elite_years table = 10000
-vi. friend table = 10000
-vii. hours table = 10000
-viii. photo table = 10000
-ix. review table = 10000
-x. tip table = 10000
-xi. user table = 10000
+	i. Attribute table = 10000
+	ii. Business table = 10000
+	iii. Category table = 10000
+	iv. Checkin table = 10000
+	v. elite_years table = 10000
+	vi. friend table = 10000
+	vii. hours table = 10000
+	viii. photo table = 10000
+	ix. review table = 10000
+	x. tip table = 10000
+	xi. user table = 10000
 	
 
 
@@ -34,17 +34,17 @@ SELECT COUNT(_____) FROM _____
 
 ```
 
-i. Business = 10000 (id)
-ii. Hours = 1562 (business_id)
-iii. Category = 2643 (business_id)
-iv. Attribute = 1115 (business_id)
-v. Review = 10000 (id)
-vi. Checkin = 493 (business_id)
-vii. Photo = 10000 (id)
-viii. Tip = 537 (user_id)
-ix. User = 10000 (id)
-x. Friend = 11 (user_id)
-xi. Elite_years = 2780 (user_id)
+	i. Business = 10000 (id)
+	ii. Hours = 1562 (business_id)
+	iii. Category = 2643 (business_id)
+	iv. Attribute = 1115 (business_id)
+	v. Review = 10000 (id)
+	vi. Checkin = 493 (business_id)
+	vii. Photo = 10000 (id)
+	viii. Tip = 537 (user_id)
+	ix. User = 10000 (id)
+	x. Friend = 11 (user_id)
+	xi. Elite_years = 2780 (user_id)
 
 Note: Primary Keys are denoted in the ER-Diagram with a yellow key icon.	
 
@@ -95,7 +95,7 @@ SELECT MIN(_____), MAX(_____), AVG(_____) FROM _____
 	
 	ii. Table: Business, Column: Stars
 	
-		min: 1.0		max: 5.0		avg: 3.6549
+		min: 1.0	max: 5.0	avg: 3.6549
 		
 	
 	iii. Table: Tip, Column: Likes
@@ -394,14 +394,14 @@ Then I will analyze their average star ratings and number of reviews so that I c
                                           
 iii. Output of the finished dataset:
 
-+--------------------+-----------------------+---------------------+-----------------------+-------------+
-| category           | Number_Of_Businesses  |    AVG(stars)       | AVG(review_count)     | city        |
-+--------------------+-----------------------+---------------------+-----------------------+-------------+
-| Food               |              97 	     | 3.75773195876       |     101.845360825     | Middleton   |
-| Restaurants        |             289 	     | 3.53979238754       |     87.0034602076     | Chesterland |
-| Pubs               |              34	     | 3.38235294118       |     45.2647058824     | Toronto     |
-| Fast Food          |              34	     | 3.19117647059       |     35.2058823529     | Charlotte   |
-+--------------------+-----------------------+---------------------+-----------------------+-------------+
+	+--------------------+-----------------------+---------------------+-----------------------+-------------+
+	| category           | Number_Of_Businesses  |    AVG(stars)       | AVG(review_count)     | city        |
+	+--------------------+-----------------------+---------------------+-----------------------+-------------+
+	| Food               |              97 	     | 3.75773195876       |     101.845360825     | Middleton   |
+	| Restaurants        |             289 	     | 3.53979238754       |     87.0034602076     | Chesterland |
+	| Pubs               |              34	     | 3.38235294118       |     45.2647058824     | Toronto     |
+	| Fast Food          |              34	     | 3.19117647059       |     35.2058823529     | Charlotte   |
+	+--------------------+-----------------------+---------------------+-----------------------+-------------+
          
          
 iv. SQL code used for analysis:
